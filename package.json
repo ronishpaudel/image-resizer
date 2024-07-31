@@ -1,0 +1,22 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "A simple image resizer npm package",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev":"nodemon index.ts",
+    "build": "tsc",
+    "start": "nodemon dist/index.js",
+    "test": "nodemon test/test.js"
+  },
+  "keywords": ["image", "resize", "canvas", "jpeg", "png"],
+  "author": "Ronish Paudel",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "@types/node": "^17.0.25"
+  }
+}
