@@ -1,5 +1,5 @@
 {
-  "name": "image-resizify",
+  "name": "resizify-image",
   "version": "1.0.0",
   "description": "A simple image resizer npm package",
   "main": "dist/index.js",
