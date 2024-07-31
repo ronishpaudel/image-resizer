@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev":"nodemon index.ts",
+    "update-readme": "nodemon readme-update/update-readme.js",
     "build": "tsc",
     "start": "nodemon dist/index.js",
     "test": "nodemon test/test.js"
