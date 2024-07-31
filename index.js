@@ -13,7 +13,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.resizeImage = void 0;
-//index.ts
 const canvas_1 = require("canvas");
 const fs_1 = __importDefault(require("fs"));
 const resizeImage = (inputPath, outputPath, options) => __awaiter(void 0, void 0, void 0, function* () {
