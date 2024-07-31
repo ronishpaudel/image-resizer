@@ -1,0 +1,7 @@
+# .npmignore
+node_modules
+dist
+test
+src
+*.log
+.env
